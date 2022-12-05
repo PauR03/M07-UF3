@@ -35,6 +35,7 @@
                 }
                 
                 echo "<label for='".$row["Continent"]."'>".$row["Continent"]."</label><br>\n";
+                
                 $row = $query->fetch();
             }
             ?>
